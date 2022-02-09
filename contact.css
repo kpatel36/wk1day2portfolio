@@ -1,0 +1,43 @@
+body{
+    background-color;
+}
+.contact-header{
+    text-align: center;
+    font-family:'Tahoma';
+    text-decoration-color: cadetblue;
+    font-size:xx-large;
+    padding:25px;
+}
+
+.form-names{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    font-family:'Tahoma';
+    text-decoration-color: cadetblue;
+    ;
+}
+
+.form-email{
+    font-family:'Tahoma';
+    justify-content: center;
+    text-align:center;
+    text-decoration-color: cadetblue;
+}
+
+
+.form-box{
+    font-family:'Tahoma';
+    margin: 
+    justify-content: center;
+    text-align: center;
+    text-decoration-color: cadetblue;
+}
+
+.submitbutton{
+    font-family:'Tahoma';
+    justify-content: center;
+    text-decoration-color: cadetblue;   
+    text-align:center;
+}
