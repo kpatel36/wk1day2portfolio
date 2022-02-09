@@ -1,143 +1,144 @@
 h1 {
-    display: flex;
-    justify-content: center;
-    font-family: times new;
-    font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  font-family: times new;
+  font-size: xx-large;
 }
-body{ 
-    background-color:lavender;
+body {
+  background-color: lavender;
 }
-h1{
-    font-family:'Tahoma';
-}
-
-nav{
-    display:block;
-    color:lavender;
-    margin: 15px;
+h1 {
+  font-family: "Tahoma";
 }
 
-nav li{
-        display: inline;
-        margin: 8px;
-    }
-   
-nav a{
-    color: #a60cb4;
-    text-decoration: none;    
-    font-family: 'Tahoma';
+nav {
+  display: block;
+  color: lavender;
+  margin: 15px;
 }
 
-nav ul{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    border:white 35% 2px;
-    margin: 0;
-    list-style-type: none;
-    width:100;
-    padding:20px;
-    background-color: white;
+nav li {
+  display: inline;
+  margin: 8px;
 }
 
-.links{
-    text-decoration: none;
-    text-align: center;
+nav a {
+  color: #a60cb4;
+  text-decoration: none;
+  font-family: "Tahoma";
 }
 
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: white 35% 2px;
+  margin: 0;
+  list-style-type: none;
+  width: 100;
+  padding: 20px;
+  background-color: white;
+}
+
+.links {
+  text-decoration: none;
+  text-align: center;
+}
 
 nav ul .resourcebar {
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border:white 35% 2px;
-    margin: 0;
-    list-style-type: none;
-    width:100;
-    padding:20px;
-    background-color: rgb(206, 153, 193);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: white 35% 2px;
+  margin: 0;
+  list-style-type: none;
+  width: 100;
+  padding: 20px;
+  background-color: rgb(206, 153, 193);
 }
-.container{
-    display: flex; 
-    flex-flow:row wrap;
-    border: black 1.5px;
-    border-style: inset;
-    padding:5px;
-    font-family:'Tahoma';
-    justify-content:center;
-}
-
-.main-1{
-    flex:1;
-    background-color: aliceblue;
-    width:250px;
-    height: 300px;
-    padding:15px;
-    margin:15px;
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  border: black 1.5px;
+  border-style: inset;
+  padding: 5px;
+  font-family: "Tahoma";
+  justify-content: center;
 }
 
-.main-image{
-    background-color: aliceblue;
-    margin-bottom:15px;
-    background-size: cover;
+.main-1 {
+  flex: 1;
+  background-color: aliceblue;
+  width: 250px;
+  height: 300px;
+  padding: 15px;
+  margin: 15px;
 }
 
-.pic-1{
-    background-image: src="pictures/Leadenhall2.jpg";
+.main-image {
+  background-color: aliceblue;
+  width: 360px;
+  height: 150px;
+}
 
-    
+.pic {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* .pic-1 {
+  background-image: src= "pictures/Leadenhall2.jpg";
+} */
 .medium {
   width: 250px;
   height: 250px;
 }
 
-
-.pic-2{
-    background-image: src="pictures/old books.jpg";
+/* .pic-2 {
+  background-image: src= "pictures/old books.jpg";
 }
 
-.pic-3{
-    background-image: src="pictures/laptop screen.jpg";
-}
+.pic-3 {
+  background-image: src= "pictures/laptop screen.jpg";
+} */
 .h3-1 {
-    text-align: center;
+  text-align: center;
 }
 
-.pbox{
-    text-align: center;
+.pbox {
+  text-align: center;
 }
-.about-me{
-    display:flex;
-    float:left;
-    width:33%;
+.about-me {
+  display: flex;
+  float: left;
+  width: 33%;
 }
 
 .row:after {
-
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-#profile_pic{
-    display:block;
-    width: 18%;
-    border-radius: 15%;
-    float:right;
+#profile_pic {
+  display: block;
+  width: 18%;
+  border-radius: 15%;
+  float: right;
 }
 
-#cap{
-    font-family:'Tahoma';
-    position: relative;
+#cap {
+  font-family: "Tahoma";
+  position: relative;
 }
 
-.current{
-    display: flex;
-    max-width: 24%;
-    float:right;
-   font-family: Tahoma;
+.current {
+  display: flex;
+  max-width: 24%;
+  float: right;
+  font-family: Tahoma;
 }
-#currentlist{
-    list-style-type: none;
-    font:Tahoma;
+#currentlist {
+  list-style-type: none;
+  font: Tahoma;
 }
